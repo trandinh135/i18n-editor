@@ -11,7 +11,7 @@ import com.jvms.i18neditor.FileStructure;
  * @author Jacob van Mourik
  */
 public class EditorSettings {
-	public final static String DEFAULT_RESOURCE_FILE_DEFINITION = "translations{_LOCALE}";
+	public final static String DEFAULT_RESOURCE_FILE_DEFINITION = "translation{_LOCALE}";
 	
 	private int windowPositionX;
 	private int windowPositionY;

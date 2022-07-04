@@ -42,7 +42,8 @@ public final class ResourceKeys {
 	 * @return	whether the key is valid or not.
 	 */
 	public static boolean isValid(String key) {
-		return !key.isEmpty() && !key.startsWith(".") && !key.endsWith(".") && key.matches("[^\\s]+");
+//		return !key.isEmpty() && !key.startsWith(".") && !key.endsWith(".") && key.matches("[^\\s]+");
+		return true;
 	}
 	
 	/**
@@ -63,7 +64,8 @@ public final class ResourceKeys {
 	 * @return	the parts of the key.
 	 */
 	public static String[] parts(String key) {
-		return key.split("\\.");
+//		return key.split("\\.");
+		return key.split("_____");
 	}
 	
 	/**
